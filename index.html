@@ -12,10 +12,25 @@
 <body class="font-sans">
 
 
-    <header class="flex justify-between items-center px-4 my-4 shadow-md text-3xl bg-slate-800 text-slate-100 py-2">
+
+
+    <section class="absolute w-full h-full bg-slate-700 text-slate-100 px-4 my-4 text-3xl z-40 pt-14 hidden overflow-hidden">
+
+
+        <nav>
+            <ul>
+                <li class="text-center py-4"><a href="">Projects</a> </li>
+                <li class="text-center py-4"><a href="">About</a></li>
+            </ul>
+        </nav>
+
+
+    </section>
+
+    <header class="flex justify-between relative items-center px-4 my-4 shadow-md text-3xl bg-slate-800 text-slate-100 py-2 z-50">
 
         <h1 class="uppercase"> Vladislavas.dev</h1>
-        <ul class="content md:hidden">
+        <ul id="menu" class="content md:hidden">
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
             <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
@@ -56,6 +71,11 @@
         </section>
 
         <!-- Current project section -->
+
+
+
+
+
         <section class="px-8 flex flex-col md:justify-center">
 
             <h2 class="text-center text-2xl px-8 my-8">Newest Project</h2>
@@ -69,7 +89,7 @@
                                 id="clickme"><img src="images/icons/github-mark.svg" alt="GitHub" class="w-10"></a>
                             <label for="clickme" class="mb-3">Click me!</label>
 
-                            <div class="flex flex-row space-x-2 sm:mb-1.5 mb-[-1.5rem] md:hidden">
+                            <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5 md:hidden">
                                 <img src="images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 inline">
                                 <img src="images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
                                     class="w-7 inline">
@@ -125,28 +145,10 @@
                         </ul>
                     </li>
 
-
-
-
-
-                    <li class="ml-4 w-full max-h-fit overflow-y-scroll">Lorem ipsum, dolor sit amet
-                        consectetur adipisicing elit. Nesciunt laboriosam corporis ullam eveniet sunt, exercitationem,
-                        eos accusamus sit recusandae numquam voluptates quos odit qui! Maiores sit voluptatum
-                        reprehenderit voluptate vero?
-                        Cumque iste pariatur officia commodi eaque enim illo ad dolorem, sequi et esse provident quod,
-                        praesentium libero dolor, rerum repellendus illum. Ut alias odio excepturi commodi aliquid
-                        expedita nostrum praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                        voluptas repellendus doloribus? Quidem qui aut dicta architecto repellat rerum, alias dolores
-                        quos ipsum fuga laborum libero soluta expedita ullam ex Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Repudiandae error aliquam necessitatibus doloremque eveniet optio! Dicta
-                        dolorem iusto, quibusdam officia quaerat fugiat, impedit fuga facere reiciendis temporibus,
-                        voluptatibus earum incidunt.
-                        Modi eius maiores delectus fugit dignissimos temporibus eum inventore facere vero, doloribus ut
-                        earum rem numquam odio, ab quidem mollitia error debitis placeat. Odio, sint! Illo velit qui
-                        dolorum ipsam.
-                        Veritatis sapiente nesciunt blanditiis doloremque officiis culpa ex, temporibus aperiam sequi
-                        aspernatur, facilis tempore. Modi dolor deleniti debitis accusamus, obcaecati sit veniam
-                        distinctio repellat, nam nisi officia vero aut a.</li>
+                    <li class="ml-4 w-full max-h-fit overflow-hidden">
+                        <h4 class="text-center font-extrabold mt-4 md:mt-0">Goal of the project</h4>
+                        <p class="text-center mb-4">Create a portfolio website for myself</p>
+                    </li>
 
                 </ul>
             </div>
@@ -164,6 +166,7 @@
         </ul>
     </footer>
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="/main.js"></script>
 </body>
 
 </html>
