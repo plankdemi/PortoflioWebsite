@@ -17,10 +17,7 @@ menu.addEventListener("click", function () {
   } 
 });
 
-allProjects.addEventListener("click", function () {
-  newestProject.classList.add("hidden");
-  allProjects.classList.add("hidden");
-});
+
 
 
 
