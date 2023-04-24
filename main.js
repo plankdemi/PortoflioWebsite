@@ -12,6 +12,5 @@ menu.addEventListener("click", function () {
   } else{
     modal.classList.add("hidden");
     document.body.classList.remove("overflow-hidden");
-
   } 
 });
