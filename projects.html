@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="font-sans flex flex-col min-h-screen ">
+
+    <section
+        class="absolute w-full h-full bg-slate-700 text-slate-100 px-4 my-4 text-3xl z-40 pt-14 hidden overflow-hidden">
+
+
+        <nav>
+            <ul>
+                <a href="/index.html">
+                    <li class="text-center py-4 my-4 rounded-2xl bg-slate-800">Home</li>
+                </a>
+
+                <a href="">
+                    <li class="text-center py-4 my-4 rounded-2xl bg-slate-800">Contact</li>
+                </a>
+            </ul>
+        </nav>
+
+
+    </section>
+
+    <header
+        class="flex justify-between relative items-center px-4 my-4 shadow-md text-3xl bg-slate-800 text-slate-100 py-2 z-50">
+
+        <h1 class="uppercase"> Vladislavas.dev</h1>
+        <ul id="menu" class="content md:hidden">
+            <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
+            <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
+            <li class="border bg-slate-100 w-9 h-1 my-2 rounded-md"></li>
+        </ul>
+        <nav class="hidden md:contents">
+
+            <ul class="flex justify-center items-center gap-x-4">
+
+                <li class="hover:text-slate-500"><a href="/index.html">Home</a></li>
+                <li class="hover:text-slate-500"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="text-l flex-1">
+
+
+
+        <section id="newestProject" class="px-8 flex flex-col md:justify-center">
+
+            <h2 class="text-center text-2xl px-8 mt-16"><span
+                    class="rounded-full bg-slate-800 text-slate-100 p-4">Newest Project</span></h2>
+
+            <div class="justify-center items-center">
+                <h3 class="text-center text-xl pb-8 mt-4">Portfolio Website</h3>
+                <ul class="flex flex-col md:flex-row items-center">
+                    <li class="w-1/2">
+                        <div class="flex flex-col w-full items-center">
+                            <a href="https://github.com/plankdemi/PortoflioWebsite" class="text-center"
+                                id="clickme"><img src="images/icons/github-mark.svg" alt="GitHub" class="w-10"></a>
+                            <label for="clickme" class="mb-3">Click me!</label>
+
+                            <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5 md:hidden">
+                                <img src="images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 inline">
+                                <img src="images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
+                                    class="w-7 inline">
+                                <img src="images/icons/js.png" alt="JavaScript" title="JavaScript" class="w-7 inline">
+                            </div>
+                        </div>
+
+                        <div id="gallery" data-carousel="slide">
+                            <!-- Carousel wrapper -->
+                            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                <!-- Item 1 -->
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                    <img src="/images/images/project1_1.PNG"
+                                        class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="">
+                                </div>
+                                <!-- Item 2 -->
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="/images/images/project1_2.PNG"
+                                        class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover"
+                                        alt="">
+                                </div>
+                                <!-- Item 3 -->
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="/images/images/project1_3.PNG"
+                                        class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="">
+                                </div>
+                                <!-- Item 4 -->
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="/images/images/project1_4.PNG"
+                                        class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="">
+                                </div>
+                                <!-- Item 5 -->
+                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                                        class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="hidden md:contents">
+                        <ul class="flex flex-col">
+                            <img src="images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 md:w-10 my-2 mx-1">
+                            <img src="images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
+                                class="w-7 md:w-10 my-2 mx-1">
+                            <img src="images/icons/js.png" alt="JavaScript" title="JavaScript"
+                                class="w-7 md:w-10 my-2 mx-1">
+                        </ul>
+                    </li>
+
+                    <li class="ml-4 w-full max-h-fit overflow-hidden">
+                        <h4 class="text-center font-extrabold mt-4 md:mt-0">Goal of the project</h4>
+                        <p class="text-center mb-4">Create a portfolio website for myself</p>
+                    </li>
+
+                </ul>
+            </div>
+            </div>
+
+        </section>
+
+        <section class="px-8 flex flex-col md:justify-center w-full">
+
+            <h2 class="text-center text-2xl px-8 mt-16 rounded-full"> <span
+                    class="bg-slate-800 text-slate-100 p-4 rounded-full">All
+                    projects</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-3/4 mt-8 mx-auto text-center">
+                <!-- First Item -->
+                <div>
+                    <ul class="flex flex-col items-center">
+                        <li class="w-1/2">
+                            <div class="flex flex-col w-full items-center">
+                                <a href="https://github.com/plankdemi/PortoflioWebsite" class="text-center"
+                                    id="clickme"><img src="images/icons/github-mark.svg" alt="GitHub" class="w-10"></a>
+                                <label for="clickme" class="mb-3">Click me!</label>
+
+                                <div class="flex flex-row space-x-2 mb-[-3rem] min-[370px]:mb-1.5">
+                                    <img src="images/icons/html-5.png" alt="HTML5" title="HTML5" class="w-7 inline">
+                                    <img src="images/icons/tailwind.svg" alt="Tailwind CSS" title="Tailwind CSS"
+                                        class="w-7 inline">
+                                    <img src="images/icons/js.png" alt="JavaScript" title="JavaScript"
+                                        class="w-7 inline">
+                                </div>
+                            </div>
+
+                            <div id="gallery" data-carousel="slide">
+                                <!-- Carousel wrapper -->
+                                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                                    <!-- Item 1 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/images/images/project1_1.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/images/images/project1_2.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                                        <img src="/images/images/project1_3.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 4 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="/images/images/project1_4.PNG"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                    <!-- Item 5 -->
+                                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                                            class="absolute block max-w-full w-auto h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+
+                        <h3>Portfolio Website</h3>
+
+
+
+                    </ul>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+    </main>
+    <footer class="flex justify-between items-center px-4 my-4 shadow-md text-3xl bg-slate-800 text-slate-100 py-2">
+        <ul class="flex justify-center items-center gap-x-4 min-w-full">
+            <li> <a href="https://www.linkedin.com/in/vladislavas-baradulinas-7a79171b3/"><img
+                        src="/images/icons/LinkedIn.png" alt="linkedin" class="w-10"></a></li>
+            <li> <a href="https://www.facebook.com/vladas.baradulinas"><img src="/images/icons/facebook.png"
+                        alt="facebook" class="w-10"></a></li>
+            <li> <a href="https://discord.com/users/444558927388999682"><img src="/images/icons/discord.png"
+                        alt="discord" class="w-10"></a></li>
+        </ul>
+    </footer>
+    <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>
