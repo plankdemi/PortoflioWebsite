@@ -1887,6 +1887,15 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
+  .md\:m-auto {
+    margin: auto;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:ml-8 {
     margin-left: 2rem;
   }
@@ -1931,35 +1940,11 @@ input:checked + .toggle-bg {
     justify-content: center;
   }
 
-  .md\:justify-around {
-    justify-content: space-around;
-  }
-
   .md\:text-left {
     text-align: left;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:m-auto {
-    margin: auto;
-  }
-
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lg\:my-auto {
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
-  .lg\:text-center {
-    text-align: center;
+  .md\:align-middle {
+    vertical-align: middle;
   }
 }
